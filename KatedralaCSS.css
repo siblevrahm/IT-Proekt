@@ -1,7 +1,4 @@
-body {
-    font-family: Arial;
-    margin: auto;
-  }
+
   
   img {
     vertical-align: middle;
@@ -69,7 +66,15 @@ body {
     padding: 2px 16px;
     color: white;
   }
-  
+  .text{
+    width: 80%;
+    margin:auto;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .video{
+    text-align: center;
+  }
   .row:after {
     content: "";
     display: table;
