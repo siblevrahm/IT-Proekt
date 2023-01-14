@@ -56,7 +56,11 @@ body {
 .navbar a.right {
   float: right;
 }
-
+.navbar a.right1 {
+  float: right;
+  background-color: #506C64;
+  color: white;
+}
 /* Change color on hover */
 .navbar a:hover {
   background-color: #ddd;
@@ -87,7 +91,7 @@ body {
     flex:70%;
     padding: 1%;
 }
-button{
+.more{
     font-family: "CustomFont2", Arial, Helvetica, sans-serif;
     background: rgb(34,89,77);
     background: linear-gradient(90deg, rgba(34,89,77,1) 0%, rgba(117,184,200,1) 100%);

@@ -1,12 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="MainCSS.css">
+<link rel="stylesheet" href="ContactsCSS.css">
 </head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+</style>
 <body>
-    
+
+<div class="header">
+  <h1>Забележителности Варна</h1>
+  <p>Създено от Сибел Рахмиева и Мартин Георгиев</p>
+</div>
+
+<div class="navbar">
+  <a href="Main.html" >Начало</a>
+  <a href="#">Забележителности</a>
+  <a href="#">Карта</a>
+  <a href="#">Любими</a>
+  <a href="#" class="active" style="float: right;">Контакти</a>
+</div>
+
+  <div class="main">
+    <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="TupaKotka2.jpg" alt="Jane" style="width:100%">
+            <div class="container">
+              <h2>Сибел Рахмиева</h2>
+              <p class="title">Длъжност: Общак</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p>sibel.rahmieva-23v@mgberon.com</p>
+              <p><button class="contact">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="TupaKotka3.jpg" alt="Mike" style="width:100%">
+            <div class="container">
+              <h2>Мартин Георгиев</h2>
+              <p class="title">Длъжност: Общак</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p>martin.georgiev-23v@mgberon.com</p>
+              <p><button class="contact">Contact</button></p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+<div class="footer">
+  <h6>All rights reserved!!!</h6>
+</div>
+
 </body>
 </html>
