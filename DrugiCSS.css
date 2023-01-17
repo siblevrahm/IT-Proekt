@@ -1,7 +1,9 @@
 .row {
     margin: 8px -16px;
   }
-  
+  .main{
+    font-size: 14px;
+  }
   /* Add padding BETWEEN each column */
   .row,
   .row > .column {
