@@ -1,3 +1,4 @@
+<div style="display:none;">xample</div>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,6 +6,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="MainCSS.css">
+<link rel="stylesheet" href="KPKTR.css">
 </head>
 <style>
     * {
@@ -20,33 +22,129 @@
 
 <div class="navbar">
   <a href="Main.html">Начало</a>
-  <a href="#">Забележителности</a>
-  <a href="#">Карта</a>
+  <a href="DrugiZabelejitelnosti.html">Други Забележителности</a>
   <a href="#">Любими</a>
   <a href="Contacts.html" class="right">Контакти</a>
 </div>
 
+  
   <div class="main">
-    <h2>Кривото дърво</h2>
-    <h5>Локация: Морска градина, Варна</h5>
-    <div class="zab">
-        <div class="left1" style="height:200px;">
-            <img style="max-width: 100%; height: auto;" src="krivodurvo.jpg">
+        <h2 style="text-align:center">Кривото дърво</h2>
+
+    <div class="container">
+      <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+        <img src="Krivodurvo/krivodurvo.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+        <img src="Krivodurvo/Krivodurbo2.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+        <img src="Krivodurvo/Krivodurbo3ob1.jpg" style="width:100%">
+      </div>
+        
+      <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+        <img src="Krivodurvo/Krivodurbo4ob1.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+        <img src="Krivodurvo/Krivodurbo5ob1.jpg" style="width:100%">
+      </div>
+        
+      <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+        <img src="Krivodurvo/Krivodurbo6.jpg" style="width:100%">
+      </div>
+        
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="Krivodurvo/Krivodurvo.jpg" style="width:100%" onclick="currentSlide(1)">
         </div>
-        <div class="right1">
-            <p>
-                Кривото дърво е любимо място най-вече за деца, влюбени и хора, които развеждат домашните си любимци в парка. То всъщност е от вида "Церсис" и е с такава нестандартна форма, тъй като е полухрастовидно. Тъй като дървото е възрастно - на повече от 60 години, с времето стволът му се е увеличавал встрани, за да придобие настоящата си форма.              
-            </p>
-            <br>
-            <a href="#"><button class="more">Още</button></a>
+        <div class="column">
+          <img class="demo cursor" src="Krivodurvo/Krivodurbo2.jpg" style="width:100%" onclick="currentSlide(2)">
         </div>
+        <div class="column">
+          <img class="demo cursor" src="Krivodurvo/Krivodurbo3ob1.jpg" style="width:100%" onclick="currentSlide(3)">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="Krivodurvo/Krivodurbo4ob1.jpg" style="width:100%" onclick="currentSlide(4)">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="Krivodurvo/Krivodurbo5ob1.jpg" style="width:100%" onclick="currentSlide(5)">
+        </div>    
+        <div class="column">
+          <img class="demo cursor" src="Krivodurvo/Krivodurbo6.jpg" style="width:100%" onclick="currentSlide(6)">
+        </div>
+      </div>
     </div>
-    <hr>
+    <div class="text">
+      <h2>Повече за Кривото Дърво</h2>
+      &emsp;Любимото на поколения деца "криво дърво" във варненската Морска градина се обагри в красиви розови цветове и направи игрите на малките палавници по красиви.
+
+      Дървото с причудлива форма е една от емблемите на Морската градина на Варна и се намира в близост до възрожденската алея с паметници.
+
+      Поколения варненци и гости на града са се спирали пред него. Някои за да се снимат, други като малчуганите, за да се покатерят на клоните му.
+
+      Кривото дърво е любимо място най-вече за деца, влюбени и хора, които развеждат домашните си любимци в парка. То всъщност е от вида "Церсис" и е с такава нестандартна форма, тъй като е полухрастовидно. Тъй като дървото е възрастно - на повече от 60 години, с времето стволът му се е увеличавал встрани, за да придобие настоящата си форма.
+
+      Този вид дърво първо тръгва като нисък храст и ако се остави с годините, прави голямо стъбло. Не става високо за разлика от чинара или липата, а тръгват множество разклонения от земята. Дърво не е опасно за децата, които се катерят по него, защото има излят бетон, който е подпрян с чатал.
+    </div>
+    <br>
+    <div class="video">
+      <iframe width="60%" height="400px" src="https://www.youtube.com/embed/hQFM6jjL-0U">
+      </iframe>
+    </div>
+    <br>
+    <div class="map" style="text-align: center;">
+        <iframe src=" https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2908.123230819337!2d27.926930615555847!3d43.20690457913908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a454067192bbcd%3A0x53ed6bc1019f1a80!2z0JrRgNC40LLQvtGC0L4g0LTRitGA0LLQvg!5e0!3m2!1sbg!2sbg!4v1673738461455!5m2!1sbg!2sbg" width="80%" height="50%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
   </div>
 
 <div class="footer">
   <h6>All rights reserved!!!</h6>
 </div>
+
+<script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("demo");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
 
 </body>
 </html>
